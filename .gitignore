@@ -1,0 +1,30 @@
+# === SBT ===
+/target/
+/project/target/
+/project/project/
+
+# === VSCode ===
+.vscode/
+*.code-workspace
+
+# === Logs ===
+*.log
+
+# === Mac OS ===
+.DS_Store
+
+# === Idea ===
+.idea/
+*.iml
+
+# === Metals (Scala LSP) ===
+.metals/
+.bloop/
+.bsp/
+
+# === Sonar ===
+.scannerwork/
+
+# === Other ===
+*.class
+*.swp
